@@ -1,0 +1,20 @@
+.gallery {
+  background: black;
+
+  .main-gallery {
+    background: black;
+
+    .link-item {
+      .img-item {
+        filter: grayscale(100%) opacity(0.4) blur(1px);
+        -webkit-filter: grayscale(100%) opacity(0.4) blur(1px);
+        filter: grayscale(100%) opacity(0.4) blur(1px);
+        transition: filter 0.3s ease;
+
+        &:hover{
+            filter: none;
+        }
+      }
+    }
+  }
+}
