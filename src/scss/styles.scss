@@ -1,8 +1,5 @@
 // Import all of Bootstrap's CSS
 @import "bootstrap/scss/bootstrap";
 
+@import "header";
 @import "gallery";
-
-body{
-    background: lawngreen;
-}

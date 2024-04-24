@@ -1,6 +1,9 @@
 {
   "scripts": {
-    "start": "parcel serve src/index.html --public-url / --dist-dir dist",
+    "clean-dist": "rm -rf dist && mkdir dist",
+    "copy-img": "cp -vR ./src/img ./dist",
+    "init": "npm run clean-dist && npm run copy-img",
+    "start": "npm run init && parcel serve src/index.html --public-url / --dist-dir dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {

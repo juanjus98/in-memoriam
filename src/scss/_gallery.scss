@@ -1,5 +1,6 @@
 .gallery {
   background: black;
+  padding: 4rem 0;
 
   .main-gallery {
     background: black;
@@ -11,8 +12,8 @@
         filter: grayscale(100%) opacity(0.4) blur(1px);
         transition: filter 0.3s ease;
 
-        &:hover{
-            filter: none;
+        &:hover {
+          filter: none;
         }
       }
     }
