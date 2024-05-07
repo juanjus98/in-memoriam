@@ -1,7 +1,15 @@
 // Import all of Bootstrap's CSS
 @import "bootstrap/scss/bootstrap";
 
+/* import 'animate.css'; */
+@import "animate.css/animate";
+
 @import "fonts";
+@import "variables";
 
 @import "header";
 @import "gallery";
+
+@import "burger-menu";
+
+@import "mensajes";

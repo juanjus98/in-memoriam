@@ -16,32 +16,30 @@
       data-parallax="scroll"
       data-position="top"
       data-bleed="10"
-      data-image-src="./img/foto_fondo.webp"
+      data-image-src="./img/foto-fondo-black.webp"
       data-natural-width="2600"
       data-natural-height="1460"
     >
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-sm-12 col-md-10 text-center">
-            <div class="custom-box" data-aos="zoom-in-up">
-              <h1 class="h1 charmonman-bold">Juan Sandoval Alfaro</h1>
-              <h2 class="h2 charmonman-regular">1940 - 2020</h2>
+            <div class="custom-box">
+              <picture class="image border-opacity-10">
+                <img
+                  src="img/cover.png"
+                  class="rounded-circle cover"
+                  alt="Juan Sandoval Alfaro"
+                />
+              </picture>
+              <h1 class="h1 parisienne-regular">Juan Sandoval Alfaro</h1>
+              <h2 class="h2 poppins-light-italic"><i>1940 - 2020</i></h2>
             </div>
           </div>
         </div>
       </div>
     </header>
-    <!-- <div
-      class="parallax-container"
-      data-parallax="scroll"
-      data-position="top"
-      data-bleed="10"
-      data-image-src="./img/stellar-spire-eagle-nebula-1400x900.jpg"
-      data-natural-width="1400"
-      data-natural-height="900"
-      style="height: 516px"
-    ></div> -->
     <main class="custom-main">
+      <!-- gallery -->
       <section class="gallery">
         <div class="container-fluid">
           <div class="row">
@@ -328,15 +326,61 @@
           </div>
         </div>
       </section>
+
+      <!-- mensajes -->
+      <section class="mensajes">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-6">CONTENIDO AQUÍ</div>
+            <div class="col-6">
+              <div class="ratio ratio-4x3">
+              <div class="covervid-wrapper">
+                <video
+                  playsinline
+                  autoplay
+                  muted
+                  loop
+                  class="covervid"
+                  preload="metadata"
+                  poster="img/video-fallback.png"
+                  title="Video"
+                >
+                  <source
+                    src="//media.antuca.xyz/video-papa-min.mp4"
+                    type="video/mp4"
+                  />
+                  <source
+                    src="//media.antuca.xyz/video-papa-min.webm"
+                    type="video/webm"
+                  />
+                </div>
+                </video>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
+    <footer class="footer">Footer her</footer>
+
+    <!-- Burger menu -->
+    <div class="fixed-top d-flex justify-content-end">
+      <div id="burger-menu">
+        <span></span>
+      </div>
+    </div>
+
+    <!-- Menú -->
+    <div id="menu">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About Us</a></li>
+      </ul>
+    </div>
 
     <script src="photoswipe/umd/photoswipe.umd.min.js"></script>
     <script src="photoswipe/umd/photoswipe-lightbox.umd.min.js"></script>
-    <!-- <script
-      type="text/javascript"
-      src="grid-gallery-master/js/grid-gallery.min.js"
-    ></script> -->
-    <!-- <script src="paroller.js/jquery.paroller.min.js"></script> -->
+
     <script src="aos.js/aos.js"></script>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
