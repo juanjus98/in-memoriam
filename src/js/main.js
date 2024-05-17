@@ -1,4 +1,4 @@
-console.log("Success ready JS!!");
+console.log("Readdy JS!!");
 
 var lightbox = new PhotoSwipeLightbox({
   gallery: "#main-gallery",
@@ -11,11 +11,11 @@ lightbox.init();
 AOS.init();
 
 /* Menú */
-var burgerMenu = document.getElementById("burger-menu");
+/* var burgerMenu = document.getElementById("burger-menu");
 
 var overlay = document.getElementById("menu");
 
 burgerMenu.addEventListener("click", function () {
   this.classList.toggle("close");
   overlay.classList.toggle("overlay");
-});
+}); */

@@ -1,0 +1,17 @@
+body {
+  background: black;
+}
+.custom-main {
+  position: relative;
+  max-width: 1600px;
+  margin: 0 auto;
+
+  /* background: black; */
+  @include media-breakpoint-up(xxl) {
+    padding: 0 2rem 2rem;
+  }
+}
+
+.p-relative {
+  position: relative;
+}

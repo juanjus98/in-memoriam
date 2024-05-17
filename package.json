@@ -4,6 +4,7 @@
     "copy-img": "cp -vR ./src/img ./dist",
     "init": "npm run clean-dist && npm run copy-img",
     "start": "npm run init && parcel serve src/index.html --public-url / --dist-dir dist",
+    "build": "parcel build src/index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
